@@ -44,7 +44,8 @@ if cross_long
 
 if strategy.position_size > 0 and close >= long_tp_price
     strategy.close("Long")
-```
+
 // Plot EMAs
 plot(fast_ema, color=color.green, title="Fast EMA")
 plot(slow_ema, color=color.red, title="Slow EMA")
+```
