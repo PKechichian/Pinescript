@@ -1,4 +1,14 @@
-DCA strategy for Pinescript, opens a long position every time a fast MA crossupwards a slow MA
+### EMA Crossover DCA
+
+---
+
+**Entry conditions** : Fast EMA > Slow EMA
+
+**Stop Loss** : SPOT strategy
+
+**TP** : % of gains
+
+---
 
 ```
 //@version=5
