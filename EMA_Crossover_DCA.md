@@ -12,7 +12,7 @@
 
 ```
 //@version=5
-strategy("EMA Crossover DCA Tester", overlay=true, initial_capital = 1000, commission_value = 0.04)
+strategy("EMA Crossover DCA Tester", overlay=true, initial_capital = 1000, commission_value = 0.04, pyramiding = 100)
 
 // Input parameters for EMA periods and crossover direction
 fast_ema_period = input.int(9, title="Fast EMA Period")
