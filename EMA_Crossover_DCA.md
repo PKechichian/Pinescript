@@ -4,7 +4,7 @@
 
 **Entry conditions** : Fast EMA > Slow EMA
 
-**Stop Loss** : SPOT strategy
+**Stop Loss** : No SL (pyramiding orders)
 
 **TP** : % of gains
 
